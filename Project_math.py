@@ -26,6 +26,8 @@ while True:
         try:    
             numb1 = float(input("Введите первое число: "))
             numb2 = float(input("Введите второе число: "))
+            if:
+                numb2 != 0
             print(numb1 / numb2)
         except:
             print("Данное число не сработает")
