@@ -1,6 +1,6 @@
 import math
 while True:
-    calc = input("+, -, /, **, sqrt, !, sin, cos, tg: ")    
+    calc = input("+, -, /, *, **, sqrt, !, sin, cos, tg: ")    
     if calc == "+":
         try:
             numb1 = float(input("Введите первое число: "))
@@ -44,7 +44,7 @@ while True:
             print("Данное число не сработает")
     elif calc == "!":
         try:    
-            numb1 = float(input("Введите первое число: "))
+            numb1 = int(input("Введите первое число: "))
             print(math.factorial(numb1))
         except:
             print("Данное число не сработает")
@@ -70,4 +70,4 @@ while True:
         except:
             print("Данное число не сработает")
     else:
-        print("Такой операции нет")
+        break
