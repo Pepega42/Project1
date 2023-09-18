@@ -70,4 +70,4 @@ while True:
         except:
             print("Данное число не сработает")
     else:
-        print("Такой операции нет")
+        break
